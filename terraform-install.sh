@@ -11,7 +11,7 @@ set -e
 #   from: https://github.com/robertpeteuil/terraform-installer
 
 # Uncomment line below to always use 'sudo' to install to /usr/local/bin/
-# sudoInstall=true
+sudoInstall=true
 
 scriptname=$(basename "$0")
 scriptbuildnum="1.5.1"
